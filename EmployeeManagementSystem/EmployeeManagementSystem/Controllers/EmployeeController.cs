@@ -105,11 +105,23 @@ namespace EmployeeManagementSystem.Controllers
         {
             try
             {
-                var success = await _employeeService.DeleteEmployeeAsync(id);
-                if (!success)
+                var employee = await _context.Employees.FindAsync(id);
+                if (employee == null)
                 {
-                    TempData["ErrorMessage"] = "Failed to delete employee. The employee may not exist.";
+                    TempData["ErrorMessage"] = "Employee not found.";
+                    return RedirectToAction(nameof(Index));
                 }
+
+                var success = await _employeeService.DeleteEmployeeAsync(id);
+                if (success)
+                {
+                    TempData["SuccessMessage"] = "Employee deleted successfully.";
+                }
+                else
+                {
+                    TempData["ErrorMessage"] = "Failed to delete employee.";
+                }
+
                 return RedirectToAction(nameof(Index));
             }
             catch (Exception ex)

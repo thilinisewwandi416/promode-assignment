@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\EmployeeManagementSystem.csproj": {}
+    "C:\\Users\\thili\\OneDrive\\Desktop\\promode-assignment\\EmployeeManagementSystem\\EmployeeManagementSystem\\EmployeeManagementSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\EmployeeManagementSystem.csproj": {
+    "C:\\Users\\thili\\OneDrive\\Desktop\\promode-assignment\\EmployeeManagementSystem\\EmployeeManagementSystem\\EmployeeManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\EmployeeManagementSystem.csproj",
+        "projectUniqueName": "C:\\Users\\thili\\OneDrive\\Desktop\\promode-assignment\\EmployeeManagementSystem\\EmployeeManagementSystem\\EmployeeManagementSystem.csproj",
         "projectName": "EmployeeManagementSystem",
-        "projectPath": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\EmployeeManagementSystem.csproj",
+        "projectPath": "C:\\Users\\thili\\OneDrive\\Desktop\\promode-assignment\\EmployeeManagementSystem\\EmployeeManagementSystem\\EmployeeManagementSystem.csproj",
         "packagesPath": "C:\\Users\\thili\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\obj\\",
+        "outputPath": "C:\\Users\\thili\\OneDrive\\Desktop\\promode-assignment\\EmployeeManagementSystem\\EmployeeManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",

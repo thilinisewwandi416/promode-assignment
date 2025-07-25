@@ -90,7 +90,7 @@ namespace EmployeeManagementSystem.Services
                     "EXEC sp_DeleteEmployee @EmployeeID",
                     parameter);
 
-                return result > 0;
+                return true;
             }
             catch (Exception ex)
             {
