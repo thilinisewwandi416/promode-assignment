@@ -1,11 +1,11 @@
 USE [Promode]
 GO
-/****** Object:  StoredProcedure [dbo].[sp_GetEmployees]    Script Date: 7/25/2025 7:15:20 PM ******/
+/****** Object:  StoredProcedure [dbo].[sp_GetEmployees]    Script Date: 7/25/2025 7:54:41 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-ALTER   PROCEDURE [dbo].[sp_GetEmployees]
+CREATE PROCEDURE [dbo].[sp_GetEmployees]
     @PageNumber INT,
     @PageSize INT,
     @TotalCount INT OUTPUT,

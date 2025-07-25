@@ -16,14 +16,16 @@ namespace EmployeeManagementSystem.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index(int pageNumber = 1, int pageSize = 5)
+        public async Task<IActionResult> Index(int pageNumber = 1, int pageSize = 5, string searchName = null, string searchDepartment = null)
         {
-            var (employees, totalCount) = await _employeeService.GetEmployeesAsync(pageNumber, pageSize);
+            var (employees, totalCount) = await _employeeService.GetEmployeesAsync(pageNumber, pageSize, searchName, searchDepartment);
             ViewBag.PageNumber = pageNumber;
             ViewBag.PageSize = pageSize;
             ViewBag.TotalCount = totalCount;
             ViewBag.TotalPages = (int)Math.Ceiling((double)totalCount / pageSize);
             ViewBag.ErrorMessage = TempData["ErrorMessage"] as string;
+            ViewBag.SearchName = searchName;
+            ViewBag.SearchDepartment = searchDepartment;
             return View(employees);
         }
 
@@ -105,23 +107,11 @@ namespace EmployeeManagementSystem.Controllers
         {
             try
             {
-                var employee = await _context.Employees.FindAsync(id);
-                if (employee == null)
-                {
-                    TempData["ErrorMessage"] = "Employee not found.";
-                    return RedirectToAction(nameof(Index));
-                }
-
                 var success = await _employeeService.DeleteEmployeeAsync(id);
-                if (success)
+                if (!success)
                 {
-                    TempData["SuccessMessage"] = "Employee deleted successfully.";
+                    TempData["ErrorMessage"] = "Failed to delete employee. The employee may not exist.";
                 }
-                else
-                {
-                    TempData["ErrorMessage"] = "Failed to delete employee.";
-                }
-
                 return RedirectToAction(nameof(Index));
             }
             catch (Exception ex)

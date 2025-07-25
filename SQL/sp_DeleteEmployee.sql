@@ -5,7 +5,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-ALTER PROCEDURE [dbo].[sp_DeleteEmployee]
+CREATE PROCEDURE [dbo].[sp_DeleteEmployee]
     @EmployeeID INT
 AS
 BEGIN

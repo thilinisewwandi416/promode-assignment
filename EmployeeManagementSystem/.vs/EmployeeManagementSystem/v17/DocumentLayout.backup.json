@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\thili\\OneDrive\\Desktop\\promode-assignment\\EmployeeManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\thili\\onedrive\\desktop\\promode-assignment\\employeemanagementsystem\\employeemanagementsystem\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\thili\\onedrive\\desktop\\promode-assignment\\employeemanagementsystem\\employeemanagementsystem\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\thili\\onedrive\\desktop\\promode-assignment\\employeemanagementsystem\\employeemanagementsystem\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\thili\\onedrive\\desktop\\promode-assignment\\employeemanagementsystem\\employeemanagementsystem\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\thili\\onedrive\\desktop\\promode-assignment\\employeemanagementsystem\\employeemanagementsystem\\services\\iemployeeservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\thili\\onedrive\\desktop\\promode-assignment\\employeemanagementsystem\\employeemanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\thili\\onedrive\\desktop\\promode-assignment\\employeemanagementsystem\\employeemanagementsystem\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\thili\\onedrive\\desktop\\promode-assignment\\employeemanagementsystem\\employeemanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\thili\\OneDrive\\Desktop\\promode-assignment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "EmployeeManagementSystem\\Controllers\\HomeController.cs",
@@ -134,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\thili\\OneDrive\\Desktop\\promode-assignment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Views\\Employee\\Index.cshtml",
               "RelativeDocumentMoniker": "EmployeeManagementSystem\\Views\\Employee\\Index.cshtml",
@@ -194,25 +194,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "IEmployeeServiceRepository.cs",
               "DocumentMoniker": "C:\\Users\\thili\\OneDrive\\Desktop\\promode-assignment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Services\\IEmployeeServiceRepository.cs",
               "RelativeDocumentMoniker": "EmployeeManagementSystem\\Services\\IEmployeeServiceRepository.cs",
               "ToolTip": "C:\\Users\\thili\\OneDrive\\Desktop\\promode-assignment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Services\\IEmployeeServiceRepository.cs",
               "RelativeToolTip": "EmployeeManagementSystem\\Services\\IEmployeeServiceRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAChAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T11:51:55.457Z"
+              "WhenOpened": "2025-07-25T11:51:55.457Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EmployeeService.cs",
               "DocumentMoniker": "C:\\Users\\thili\\OneDrive\\Desktop\\promode-assignment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Services\\EmployeeService.cs",
               "RelativeDocumentMoniker": "EmployeeManagementSystem\\Services\\EmployeeService.cs",
               "ToolTip": "C:\\Users\\thili\\OneDrive\\Desktop\\promode-assignment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Services\\EmployeeService.cs",
               "RelativeToolTip": "EmployeeManagementSystem\\Services\\EmployeeService.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAswFwAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAwwFsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T11:51:15.553Z",
               "EditorCaption": ""
@@ -231,13 +232,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\Users\\thili\\OneDrive\\Desktop\\promode-assignment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "EmployeeManagementSystem\\Controllers\\EmployeeController.cs",
               "ToolTip": "C:\\Users\\thili\\OneDrive\\Desktop\\promode-assignment\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "EmployeeManagementSystem\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAwwGsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAADwv2UAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T11:49:50.644Z",
               "EditorCaption": ""
