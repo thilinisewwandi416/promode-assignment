@@ -1,0 +1,274 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\thili\\source\\repos\\employeemanagementsystem\\employeemanagementsystem\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\thili\\source\\repos\\employeemanagementsystem\\employeemanagementsystem\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\thili\\source\\repos\\employeemanagementsystem\\employeemanagementsystem\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\thili\\source\\repos\\employeemanagementsystem\\employeemanagementsystem\\services\\iemployeeservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\services\\iemployeeservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\thili\\source\\repos\\employeemanagementsystem\\employeemanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\thili\\source\\repos\\employeemanagementsystem\\employeemanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\thili\\source\\repos\\employeemanagementsystem\\employeemanagementsystem\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\thili\\source\\repos\\employeemanagementsystem\\employeemanagementsystem\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\thili\\source\\repos\\employeemanagementsystem\\employeemanagementsystem\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\thili\\source\\repos\\employeemanagementsystem\\employeemanagementsystem\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\thili\\source\\repos\\employeemanagementsystem\\employeemanagementsystem\\services\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\services\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\thili\\source\\repos\\employeemanagementsystem\\employeemanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\thili\\source\\repos\\employeemanagementsystem\\employeemanagementsystem\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\thili\\source\\repos\\employeemanagementsystem\\employeemanagementsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{308C7EF9-F21E-4077-8868-68A682A6C100}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 16,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T12:59:24.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Views\\Employee\\Delete.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Views\\Employee\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Views\\Employee\\Delete.cshtml",
+              "RelativeToolTip": "EmployeeManagementSystem\\Views\\Employee\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T12:54:46.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Views\\Employee\\Edit.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Views\\Employee\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Views\\Employee\\Edit.cshtml",
+              "RelativeToolTip": "EmployeeManagementSystem\\Views\\Employee\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T12:54:18.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Views\\Employee\\Create.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Views\\Employee\\Create.cshtml",
+              "ToolTip": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Views\\Employee\\Create.cshtml",
+              "RelativeToolTip": "EmployeeManagementSystem\\Views\\Employee\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T12:53:55.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "EmployeeManagementSystem\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T12:53:38.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\appsettings.json",
+              "RelativeToolTip": "EmployeeManagementSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-25T12:38:58.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\appsettings.Development.json",
+              "RelativeToolTip": "EmployeeManagementSystem\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-25T12:38:57.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Program.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T12:30:13.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmployeeDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Services\\EmployeeDbContext.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Services\\EmployeeDbContext.cs",
+              "ToolTip": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Services\\EmployeeDbContext.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Services\\EmployeeDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T12:00:57.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IEmployeeServiceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Services\\IEmployeeServiceRepository.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Services\\IEmployeeServiceRepository.cs",
+              "ToolTip": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Services\\IEmployeeServiceRepository.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Services\\IEmployeeServiceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAChAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T11:51:55.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T11:51:15.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Models\\Employee.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T11:50:23.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA7wHkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T11:49:50.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\thili\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "EmployeeManagementSystem\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T11:39:24.091Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

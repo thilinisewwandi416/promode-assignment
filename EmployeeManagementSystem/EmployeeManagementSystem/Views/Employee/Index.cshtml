@@ -1,0 +1,121 @@
+﻿@model List<EmployeeManagementSystem.Models.Employee>
+@{
+    ViewData["Title"] = "Employee List";
+    int pageNumber = ViewBag.PageNumber;
+    int pageSize = ViewBag.PageSize;
+    int totalPages = ViewBag.TotalPages;
+    string errorMessage = ViewBag.ErrorMessage;
+    string searchName = ViewBag.SearchName;
+    string searchDepartment = ViewBag.SearchDepartment;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container mt-4">
+        <h2>Employee List</h2>
+        @if (!string.IsNullOrEmpty(errorMessage))
+        {
+            <div class="alert alert-danger" role="alert">
+                @errorMessage
+            </div>
+        }
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <form asp-action="Index" method="get" id="searchForm">
+                    <div class="input-group">
+                        <input type="text" class="form-control" name="searchName" placeholder="Search by name..." value="@searchName" />
+                        <input type="text" class="form-control" name="searchDepartment" placeholder="Search by department..." value="@searchDepartment" />
+                        <button type="submit" class="btn btn-primary">Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <a asp-action="Create" class="btn btn-primary mb-3">Add New Employee</a>
+        <table class="table table-striped" id="employeeTable">
+            <thead>
+                <tr>
+                    <th>Employee ID</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                    <th>Phone Number</th>
+                    <th>Department</th>
+                    <th>Created Date</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var employee in Model)
+                {
+                    <tr>
+                        <td>@employee.EmployeeID</td>
+                        <td>@employee.FirstName</td>
+                        <td>@employee.LastName</td>
+                        <td>@employee.Email</td>
+                        <td>@employee.PhoneNumber</td>
+                        <td>@employee.Department</td>
+                        <td>@employee.CreatedDate.ToString("yyyy-MM-dd")</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@employee.EmployeeID" class="btn btn-sm btn-warning">Edit</a>
+                            <a asp-action="Delete" asp-route-id="@employee.EmployeeID" class="btn btn-sm btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <!-- Pagination -->
+        <nav>
+            <ul class="pagination">
+                <li class="page-item @(pageNumber <= 1 ? "disabled" : "")">
+                    <a class="page-link" asp-action="Index" asp-route-pageNumber="@(pageNumber - 1)" asp-route-pageSize="@pageSize" asp-route-searchName="@searchName" asp-route-searchDepartment="@searchDepartment">Previous</a>
+                </li>
+                @for (int i = 1; i <= totalPages; i++)
+                {
+                    <li class="page-item @(i == pageNumber ? "active" : "")">
+                        <a class="page-link" asp-action="Index" asp-route-pageNumber="@i" asp-route-pageSize="@pageSize" asp-route-searchName="@searchName" asp-route-searchDepartment="@searchDepartment">@i</a>
+                    </li>
+                }
+                <li class="page-item @(pageNumber >= totalPages ? "disabled" : "")">
+                    <a class="page-link" asp-action="Index" asp-route-pageNumber="@(pageNumber + 1)" asp-route-pageSize="@pageSize" asp-route-searchName="@searchName" asp-route-searchDepartment="@searchDepartment">Next</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $("#searchForm").on("submit", function(e) {
+                e.preventDefault();
+                var searchName = $(this).find("input[name='searchName']").val();
+                var searchDepartment = $(this).find("input[name='searchDepartment']").val();
+                var pageNumber = 1; // Reset to first page on search
+                var pageSize = @pageSize;
+
+                $.ajax({
+                    url: "/Employee/Index",
+                    type: "GET",
+                    data: { pageNumber, pageSize, searchName, searchDepartment },
+                    success: function(response) {
+                        $("#employeeTable").html($(response).find("#employeeTable").html());
+                        $("nav.pagination").html($(response).find("nav.pagination").html());
+                    },
+                    error: function(xhr, status, error) {
+                        alert("An error occurred while searching.");
+                        console.log(error);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
